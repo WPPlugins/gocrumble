@@ -1,0 +1,52 @@
+[
+    {
+        "name": "crumble/php",
+        "version": "0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mindmutex/crumble-php-library.git",
+            "reference": "7d88cf7307ad0a003d852104722d957ac94b09ce"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mindmutex/crumble-php-library/zipball/7d88cf7307ad0a003d852104722d957ac94b09ce",
+            "reference": "7d88cf7307ad0a003d852104722d957ac94b09ce",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "^0.9.7",
+            "phpunit/php-invoker": "^1.1",
+            "phpunit/phpunit": "^5.7"
+        },
+        "time": "2017-01-25T09:43:33+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Crumble": "src/"
+            },
+            "classmap": [
+                "src/"
+            ]
+        },
+        "autoload-dev": {
+            "classmap": [
+                "tests/"
+            ]
+        },
+        "authors": [
+            {
+                "name": "Ivars Veksins",
+                "email": "ivars.veksins@mindmutex.com"
+            }
+        ],
+        "support": {
+            "source": "https://github.com/mindmutex/crumble-php-library/tree/0.1.0",
+            "issues": "https://github.com/mindmutex/crumble-php-library/issues"
+        }
+    }
+]

@@ -1,0 +1,62 @@
+.crumble-profile {
+  width: 100%;
+  margin-bottom: 15px;
+  display: table;
+  text-align: left;
+  padding-bottom: 5px;
+  
+  border-bottom: 1px solid #eee;
+  
+}
+.crumble-profile>div {
+  vertical-align: top;
+  display: table-cell;
+  line-height: 1.3em;
+}
+
+.crumble-profile-left {
+  width: 50px;
+  padding-right: 10px;
+}
+
+.crumble-profile img {
+  height: 40px;
+}
+
+.crumble-error {
+  padding: 8px 10px; 
+  margin-bottom: 10px;
+  
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.hidden {
+  display: none;
+}
+
+.crumble-shares {
+  display: table;
+  overflow: hidden;
+  
+  line-height: 1.3em;
+  margin-bottom: 10px;
+}
+
+.crumble-shares-left, 
+.crumble-shares-entity {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.crumble-shares-left {
+  padding: 0px 10px 0px 0px;
+}
+.crumble-shares-left i {
+  font-size: 2.3em;
+}
+
+.crumble-smaller {
+  font-size: 0.875em;
+}
